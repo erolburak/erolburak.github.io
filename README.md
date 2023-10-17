@@ -4,7 +4,7 @@
 erolburak.me
 
 ## DESCRIPTION
-The erolburak.me website is a simple website to represent my portfolio as a Senior iOS Developer.
+The erolburak.me project is a simple website to represent my portfolio as a Senior iOS Developer.
 
 ## SETUP
 - Build with: Xcode
