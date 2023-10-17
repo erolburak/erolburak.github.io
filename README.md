@@ -7,7 +7,6 @@ erolburak.me
 The erolburak.me website is a simple website to represent my own portfolio as a Senior iOS Developer.
 
 ## SETUP
-- Minimum iOS target: 17.0
 - Build with: Xcode
 
 ## APIS
