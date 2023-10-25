@@ -20,27 +20,17 @@ struct ErolburakMe: MultiLanguageWebsite {
 
 	// MARK: - Properties
 
-	var description = "A simple website to represent my portfolio as a Senior iOS Developer."
-	var imagePath: Path? { nil }
+	var description = ""
+	var favicon: Favicon? {
+		guard let imagePath else { return nil }
+		return Favicon(path: imagePath,
+					   type: "image/png")
+	}
+	var imagePath: Path? { "/images/favicon.png" }
 	var language: Language = .english
 	var languages = [Language.english,
 					 Language.german]
-	var links = [Links(icon: "Images/linkedin-in.svg",
-					   title: "LinkedIn",
-					   url: "https://linkedin.com/in/burakerol44"),
-				 Links(icon: "fa-brands fa-xing",
-					   title: "XING",
-					   url: "https://xing.com/profile/Burak_Erol6"),
-				 Links(icon: "fa-brands fa-github",
-					   title: "GitHub",
-					   url: "https://github.com/erolburak"),
-				 Links(icon: "fa-solid fa-code",
-					   title: "Portfolio",
-					   url: "https://erolburak.me/portfolio"),
-				 Links(icon: "fa-solid fa-envelope",
-					   title: "Email",
-					   url: "mailto:erolburak@icloud.com")]
-	var name = "Portfolio"
+	var name = "Burak Erol"
 	var url = URL(string: "https://erolburak.me")!
 
 	struct ItemMetadata: MultiLanguageWebsiteItemMetadata {
