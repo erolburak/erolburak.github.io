@@ -50,11 +50,6 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
 			 })
 	}
 
-	func makeItemHTML(for item: Item<Site>,
-					  context: PublishingContext<Site>) throws -> HTML {
-		HTML()
-	}
-
 	func makePageHTML(for page: Page,
 					  context: PublishingContext<Site>) throws -> HTML {
 		HTML(.lang(page.language!),
@@ -72,6 +67,11 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
 
 				 SiteFooter()
 			 })
+	}
+
+	func makeItemHTML(for item: Item<Site>,
+					  context: PublishingContext<Site>) throws -> HTML {
+		HTML()
 	}
 
 	func makeTagListHTML(for page: TagListPage,
