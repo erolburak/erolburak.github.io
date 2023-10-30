@@ -17,22 +17,20 @@ body {
 
 footer {
 	font-size: 12px;
-	color: #8a8a8a;
+	color: #fff;
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	margin-right: 8px;
-	margin-bottom: 8px;
-}
-
-h1 {
-	padding-top: 60px;
-	padding-bottom: 20px;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 6px;
+	margin: 12px;
+	border-radius: 8px;
 }
 
 h2 {
-	margin-top: -26px;
+	margin-top: -6px;
 	font-weight: lighter;
+	opacity: 30%;
 }
 
 header {
@@ -78,12 +76,9 @@ p {
 	text-align: justify;
 }
 
-.burakerol-image-aboutme {
-	width: 25%;
-}
-
-.burakerol-image-home {
-	width: 65%;
+.burakerol-image {
+	padding-top: 40px;
+	width: 30%;
 }
 
 .content {
@@ -109,7 +104,6 @@ p {
 	background: #fff;
 	color: #000;
 	padding: 6px;
-	margin: 6px;
 	border-radius: 25%;
 }
 
@@ -125,9 +119,8 @@ p {
 	text-align: left;
 }
 
-.wrapper-burakerol {
-	margin-top: 15px;
-	text-align: right;
+.wrapper-home {
+	text-align: center;
 }
 
 .wrapper-links {
@@ -137,12 +130,13 @@ p {
 }
 
 .wrapper-links-leftside {
-	margin-left: 6px;
-	margin-top: 6px;
+	margin-left: 12px;
+	margin-top: 12px;
 }
 
 .wrapper-links-rightside {
-	margin-right: 4px;
+	margin-top: 6px;
+	margin-right: 12px;
 }
 
 @media(prefers-color-scheme: dark) {
