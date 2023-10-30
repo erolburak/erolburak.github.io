@@ -43,7 +43,7 @@ struct SiteHeader<Site: Website>: Component {
 				.class("wrapper-links-leftside")
 
 				Wrapper {
-					Link(language == .german ? "EN" : "DE",
+					Link(language == .german ? "DE" : "EN",
 						 url: (language == .german ? "/en/" : "/de/") + lastPath)
 					.class("link-language")
 				}
@@ -52,46 +52,32 @@ struct SiteHeader<Site: Website>: Component {
 			.class("wrapper-links")
 
 			Wrapper {
-				Link(context.site.name,
+				Link(context.site.name.uppercased(),
 					 url: languagePath)
 				.class("site-name")
 
-				if Site.SectionID.allCases.count > 1 {
-					navigation
-				}
+				Section()
 			}
 			.class("wrapper")
 		}
 	}
 
-	private var navigation: Component {
+	private func Section() -> Component {
 		Navigation {
 			List(Site.SectionID.allCases) { id in
 				let section = context.sections[id]
+				var title = ""
 
-				return Link(sectionTitle(language: language,
-										 section: section.id.rawValue),
+				if section.id.rawValue == ErolburakMe.SectionID.portfolio.rawValue {
+					title = "Portfolio"
+				} else if section.id.rawValue == ErolburakMe.SectionID.aboutme.rawValue {
+					title = language == .german ? "Über mich" : "About me"
+				}
+
+				return Link(title.uppercased(),
 							url: languagePath + section.path.string)
 				.class(id == selectedSectionId ? "selected" : "")
 			}
 		}
-	}
-
-	private func sectionTitle(language: Language,
-					  section: ErolburakMe.SectionID.RawValue) -> String {
-		if language == .german {
-			if section == ErolburakMe.SectionID.portfolio.rawValue {
-				return "Portfolio"
-			} else if section == ErolburakMe.SectionID.aboutme.rawValue {
-				return "Über mich"
-			}
-		} else {
-			if section == ErolburakMe.SectionID.portfolio.rawValue {
-				return "Portfolio"
-			} else if section == ErolburakMe.SectionID.aboutme.rawValue {
-				return "About me"
-			}
-		}
-		return ""
 	}
 }
