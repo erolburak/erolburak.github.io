@@ -4,7 +4,7 @@
 erolburak.me
 
 ## DESCRIPTION
-The erolburak.me project is a simple swift project to represent my [website](https://erolburak.me) as a Senior iOS Developer.
+The erolburak.me project is a simple project to represent my [website](https://erolburak.me) as a Senior iOS Developer.
 
 ## SETUP
 - Build with: Xcode
