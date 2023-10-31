@@ -40,14 +40,14 @@ struct SiteHeader<Site: Website>: Component {
 					LinkImage(image: Image("/images/email.svg"),
 							  url: "mailto:erolburak@icloud.com")
 				}
-				.class("wrapper-links-leftside")
+				.class("wrapper-links-left")
 
 				Wrapper {
 					Link(language == .german ? "DE" : "EN",
 						 url: (language == .german ? "/en/" : "/de/") + lastPath)
 					.class("link-language")
 				}
-				.class("wrapper-links-rightside")
+				.class("wrapper-link-language")
 			}
 			.class("wrapper-links")
 

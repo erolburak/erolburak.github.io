@@ -19,6 +19,7 @@ struct LinkImage: Component {
 	var body: Component {
 		Node.a(.href(url),
 			   .target(.blank),
-			   .component(image.class("link-image")))
+			   .component(image.class("link-image")),
+			   .class("wrapper-link-image"))
 	}
 }
