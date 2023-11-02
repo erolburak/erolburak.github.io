@@ -48,8 +48,18 @@ nav li a.selected,
 	font-weight: bold;
 }
 
-header .wrapper {
+header .wrapper,
+.screenshot-title,
+.wrapper-home {
 	text-align: center;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+label {
+	font-weight: bold;
 }
 
 nav {
@@ -61,9 +71,13 @@ nav li a.selected {
 }
 
 nav li {
-	display: inline-block;
 	line-height: 1.5em;
 	margin: 0 7px;
+}
+
+nav li,
+.collapse-label-toggle:after {
+	display: inline-block;
 }
 
 nav li a {
@@ -78,13 +92,35 @@ p {
 }
 
 .burakerol-image {
-	padding-block: 40px;
-	width: 50%;
+	padding-bottom: 80px;
+	padding-top: 40px;
+	width: 75%;
+}
+
+.collapse-label-toggle:after {
+	border-block: 6px solid transparent;
+	border-left: 8px solid;
+	content: "";
+	margin-left: 12px;
+	transition: transform .2s ease-in-out;
+}
+
+.collapse-toggle:checked + .collapse-label-toggle + .wrapper-collapse-content {
+	max-height: 100%;
+}
+
+.collapse-toggle:checked + .collapse-label-toggle:after {
+	transform: rotate(90deg);
 }
 
 .iPhone-image {
 	position: absolute;
 	width: 100%;
+}
+
+.iPhone-image,
+.wrapper-portfolio-screenshot-title {
+	padding-inline: 10px;
 }
 
 .link-image {
@@ -107,28 +143,21 @@ p {
 }
 
 .screenshot-image {
-	border-radius: 25px;
-	padding-top: 4px;
+	border-radius: 9%;
+	padding-top: 1.5%;
 	width: 92%;
 }
 
 .screenshot-title {
 	font-size: 0.9em;
 	font-weight: lighter;
-	margin: auto;
 	opacity: 0.5;
-	padding-top: 14px;
-	text-align: center;
-}
-
-.screenshot-title,
-.wrapper-screenshot {
-	width: 240px;
+	padding-top: 6%;
 }
 
 .ul-content {
-	margin-bottom: 40px;
-	margin-left: 40px;
+	padding-bottom: 80px;
+	padding-left: 40px;
 }
 
 .wrapper {
@@ -138,8 +167,14 @@ p {
 	text-align: left;
 }
 
-.wrapper-home {
-	text-align: center;
+.wrapper-collapse {
+	padding-bottom: 80px;
+	padding-top: 20px;
+}
+
+.wrapper-collapse-content {
+	max-height: 0px;
+	overflow: hidden;
 }
 
 .wrapper-link-image {
@@ -180,13 +215,15 @@ p {
 }
 
 .wrapper-portfolio {
-	justify-content: space-around;
-	padding-block: 40px;
+	padding-top: 40px;
+}
+
+.wrapper-portfolio-screenshot-title {
+	scale: 100%;
 }
 
 .wrapper-screenshot {
 	justify-content: center;
-	position: relative;
 }
 
 @media(prefers-color-scheme: dark) {
