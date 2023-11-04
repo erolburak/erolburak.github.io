@@ -146,7 +146,7 @@ title: PORTFOLIO
 <p>The <b>CLAAS farm connect</b> app serves as a management and tracking tool for farmers. Different base data can be created and managed here. Work processes of farm's can also be recorded and organized. A core feature is the live evaluation of machine data on the map, which, among other things, visualizes the routes traveled and draws field boundaries. For legal reasons, I'm not allowed to show screenshots because the app hasn't been published yet.</p>
 <div class="wrapper-collapse">
 	<input id="collapse4" class="collapse-toggle" type="checkbox">
-	<label for="collapse4" class="collapse-label-toggle">SHOW SCREENSHOTS (available soon)</label>
+	<label for="collapse4" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
 		<p class="screenshot-title">available soon</p>
 	</div>
