@@ -50,6 +50,7 @@ nav li a.selected,
 
 header .wrapper,
 .screenshot-title,
+.screenshot-title-single,
 .wrapper-home {
 	text-align: center;
 }
@@ -114,11 +115,20 @@ p {
 }
 
 .iPhone-image {
-	position: absolute;
 	width: 100%;
 }
 
 .iPhone-image,
+.iPhone-image-single {
+	position: absolute;
+}
+
+.iPhone-image-single {
+	width: 50%;
+}
+
+.iPhone-image,
+.iPhone-image-single,
 .wrapper-portfolio-screenshot-title {
 	padding-inline: 10px;
 }
@@ -143,16 +153,34 @@ p {
 }
 
 .screenshot-image {
-	border-radius: 9%;
 	padding-top: 1.5%;
 	width: 92%;
 }
 
-.screenshot-title {
+.screenshot-image,
+.screenshot-image-single {
+	border-radius: 9%;
+}
+
+.screenshot-image-single {
+	padding-top: 0.75%;
+	width: 44.8%;
+}
+
+.screenshot-title,
+.screenshot-title-single {
 	font-size: 0.9em;
 	font-weight: lighter;
 	opacity: 0.5;
+	padding-inline: 15%;
+}
+
+.screenshot-title {
 	padding-top: 6%;
+}
+
+.screenshot-title-single {
+	padding-top: 3%;
 }
 
 .ul-content {
