@@ -130,7 +130,7 @@ p {
 .iPhone-image,
 .iPhone-image-single,
 .wrapper-portfolio-screenshot-title {
-	padding-inline: 10px;
+	margin-inline: 10px;
 }
 
 .link-image {
@@ -164,7 +164,7 @@ p {
 
 .screenshot-image-single {
 	padding-top: 0.75%;
-	width: 44.8%;
+	width: 46%;
 }
 
 .screenshot-title,
