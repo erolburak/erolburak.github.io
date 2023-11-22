@@ -1,5 +1,5 @@
 ---
-title: Startseite
+title: STARTSEITE
 ---
 
 <div class="wrapper-home">

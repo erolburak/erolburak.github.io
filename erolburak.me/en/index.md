@@ -1,5 +1,5 @@
 ---
-title: Home
+title: HOME
 ---
 
 <div class="wrapper-home">
