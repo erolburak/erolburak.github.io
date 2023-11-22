@@ -24,6 +24,10 @@ footer {
 	right: 0;
 }
 
+h1 {
+	overflow: hidden;
+}
+
 h2 {
 	font-weight: lighter;
 	margin-top: -6px;
