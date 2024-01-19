@@ -100,7 +100,7 @@ title: PORTFOLIO
 	</div>
 </div>
 <br></br>
-<p>Also the <b>BobbysCounter</b> app is my own project, which can count a value up and down. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. In addition, today's value can be edited in a widget. This project is published on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p>
+<p>Also the <b>BobbysCounter</b> app is my own project, which can increase and deacrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today's value can be edited in a widget. This project is published on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p>
 <div class="wrapper-collapse">
 	<input id="collapse3" class="collapse-toggle" type="checkbox">
 	<label for="collapse3" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
@@ -127,14 +127,23 @@ title: PORTFOLIO
 					<img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
 					<img src="/images/screenshots/en/bobbyscounter3.png" class="screenshot-image"/>
 				</div>
-				<p class="screenshot-title">Open and edit list of all counters</p>
+				<p class="screenshot-title">Show average of the last 7, 30 and 90 counter values</p>
 			</div>
 			<div class="wrapper-portfolio-screenshot-title">
 				<div class="wrapper-screenshot">
 					<img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
 					<img src="/images/screenshots/en/bobbyscounter4.png" class="screenshot-image"/>
 				</div>
-				<p class="screenshot-title">Edit today's counter</p>
+				<p class="screenshot-title">Open and edit list of all counters</p>
+			</div>
+		</div>
+		<div class="wrapper-portfolio">
+			<div class="wrapper-portfolio-screenshot-title">
+				<div class="wrapper-screenshot">
+					<img src="/images/screenshots/iPhone.png" class="iPhone-image-single"/>
+					<img src="/images/screenshots/en/bobbyscounter5.png" class="screenshot-image-single"/>
+				</div>
+				<p class="screenshot-title-single">Edit today's counter</p>
 			</div>
 		</div>
 	</div>
