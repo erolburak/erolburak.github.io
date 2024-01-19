@@ -99,7 +99,7 @@ title: PORTFOLIO
 		</a>
 	</div>
 </div>
-<br></br>Die **Bobby Counter**-App ist mein eigenes Projekt, das einen Zählerwert erhöhen und verringern kann
+<br></br>
 <p>Auch die <b>BobbysCounter</b> App ist ein eigenes Projekt von mir, das einen Zählerwert erhöhen und verringern kann. Für jeden Tag kann ein solcher Wert angelegt werden. Die eingetragenen Werte der letzten Tage und Wochen werden in einem Chart visualisiert und in einer Liste angezeigt. Der Durchschnitt der letzten 7, 30 und 90 Zählerwerte wird in einer separaten Ansicht angezeigt. Zusätzlich kann der Wert des heutigen Tages in einem Widget editiert werden. Dieses Projekt ist auf meinem <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profil</a> veröffentlicht.</p>
 <div class="wrapper-collapse">
 	<input id="collapse3" class="collapse-toggle" type="checkbox">
