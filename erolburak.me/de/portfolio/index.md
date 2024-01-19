@@ -99,8 +99,8 @@ title: PORTFOLIO
 		</a>
 	</div>
 </div>
-<br></br>
-<p>Auch die <b>BobbysCounter</b> App ist ein eigenes Projekt von mir, die einen Wert auf und ab zählen kann. Für jeden Tag kann ein solcher Wert angelegt werden. Die eingetragenen Werte der letzten Tage und Wochen werden in einem Chart visualisiert und in einer Liste angezeigt. Zusätzlich kann der Wert des heutigen Tages in einem Widget editiert werden. Dieses Projekt ist auf meinem <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profil</a> veröffentlicht.</p>
+<br></br>Die **Bobby Counter**-App ist mein eigenes Projekt, das einen Zählerwert erhöhen und verringern kann
+<p>Auch die <b>BobbysCounter</b> App ist ein eigenes Projekt von mir, das einen Zählerwert erhöhen und verringern kann. Für jeden Tag kann ein solcher Wert angelegt werden. Die eingetragenen Werte der letzten Tage und Wochen werden in einem Chart visualisiert und in einer Liste angezeigt. Der Durchschnitt der letzten 7, 30 und 90 Zählerwerte wird in einer separaten Ansicht angezeigt. Zusätzlich kann der Wert des heutigen Tages in einem Widget editiert werden. Dieses Projekt ist auf meinem <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profil</a> veröffentlicht.</p>
 <div class="wrapper-collapse">
 	<input id="collapse3" class="collapse-toggle" type="checkbox">
 	<label for="collapse3" class="collapse-label-toggle">SCREENSHOTS ANZEIGEN</label>
@@ -127,14 +127,23 @@ title: PORTFOLIO
 					<img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
 					<img src="/images/screenshots/de/bobbyscounter3.png" class="screenshot-image"/>
 				</div>
-				<p class="screenshot-title">Liste aller Zähler öffnen und editieren</p>
+				<p class="screenshot-title">Durchschnitt der letzten 7, 30 und 90 Zählerwerte anzeigen</p>
 			</div>
 			<div class="wrapper-portfolio-screenshot-title">
 				<div class="wrapper-screenshot">
 					<img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
 					<img src="/images/screenshots/de/bobbyscounter4.png" class="screenshot-image"/>
 				</div>
-				<p class="screenshot-title">Heutigen Zähler editieren</p>
+				<p class="screenshot-title">Liste aller Zähler öffnen und editieren</p>
+			</div>
+		</div>
+		<div class="wrapper-portfolio">
+			<div class="wrapper-portfolio-screenshot-title">
+				<div class="wrapper-screenshot">
+					<img src="/images/screenshots/iPhone.png" class="iPhone-image-single"/>
+					<img src="/images/screenshots/de/bobbyscounter5.png" class="screenshot-image-single"/>
+				</div>
+				<p class="screenshot-title-single">Heutigen Zähler editieren</p>
 			</div>
 		</div>
 	</div>
