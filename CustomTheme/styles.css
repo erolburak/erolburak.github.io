@@ -25,8 +25,7 @@ footer {
 }
 
 h1 {
-	overflow: hidden;
-	text-overflow: ellipsis;
+	word-break: break-all;
 }
 
 h2 {
@@ -55,7 +54,6 @@ nav li a.selected,
 
 header .wrapper,
 .screenshot-title,
-.screenshot-title-single,
 .wrapper-home {
 	text-align: center;
 }
@@ -69,7 +67,8 @@ label {
 }
 
 nav {
-	margin-top: 20px;
+	margin-top: 13px;
+	margin-bottom: -7px;
 }
 
 nav li a.selected {
@@ -77,18 +76,14 @@ nav li a.selected {
 }
 
 nav li {
+	display: inline-grid;
 	line-height: 1.5em;
 	margin: 0 7px;
 }
 
-nav li,
-.collapse-label-toggle:after {
-	display: inline-block;
-}
-
 nav li a {
 	border-radius: 8px;
-	padding: 10px;
+	padding: 7px 10px;
 }
 
 p {
@@ -107,6 +102,7 @@ p {
 	border-block: 6px solid transparent;
 	border-left: 8px solid;
 	content: "";
+	display: inline-block;
 	margin-left: 12px;
 	transition: transform .2s ease-in-out;
 }
@@ -120,22 +116,9 @@ p {
 }
 
 .iPhone-image {
-	width: 100%;
-}
-
-.iPhone-image,
-.iPhone-image-single {
-	position: absolute;
-}
-
-.iPhone-image-single {
-	width: 50%;
-}
-
-.iPhone-image,
-.iPhone-image-single,
-.wrapper-portfolio-screenshot-title {
 	margin-inline: 10px;
+	position: absolute;
+	width: 100%;
 }
 
 .link-image {
@@ -158,34 +141,17 @@ p {
 }
 
 .screenshot-image {
+	border-radius: 9%;
 	padding-top: 1.5%;
 	width: 92%;
 }
 
-.screenshot-image,
-.screenshot-image-single {
-	border-radius: 9%;
-}
-
-.screenshot-image-single {
-	padding-top: 0.75%;
-	width: 46%;
-}
-
-.screenshot-title,
-.screenshot-title-single {
+.screenshot-title {
 	font-size: 0.9em;
 	font-weight: lighter;
 	opacity: 0.5;
 	padding-inline: 15%;
-}
-
-.screenshot-title {
 	padding-top: 6%;
-}
-
-.screenshot-title-single {
-	padding-top: 3%;
 }
 
 .ul-content {
@@ -248,15 +214,18 @@ p {
 }
 
 .wrapper-portfolio {
+	column-gap: 10px;
 	padding-top: 40px;
+}
+
+.wrapper-portfolio,
+.wrapper-screenshot {
+	justify-content: center;
 }
 
 .wrapper-portfolio-screenshot-title {
 	scale: 100%;
-}
-
-.wrapper-screenshot {
-	justify-content: center;
+	width: 48%;
 }
 
 @media(prefers-color-scheme: dark) {
