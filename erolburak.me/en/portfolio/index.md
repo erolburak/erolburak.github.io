@@ -35,10 +35,10 @@ title: PORTFOLIO
 		<div class="wrapper-portfolio">
 			<div class="wrapper-portfolio-screenshot-title">
 				<div class="wrapper-screenshot">
-					<img src="/images/screenshots/iPhone.png" class="iPhone-image-single"/>
-					<img src="/images/screenshots/en/erolburak.me3.png" class="screenshot-image-single"/>
+					<img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+					<img src="/images/screenshots/en/erolburak.me3.png" class="screenshot-image"/>
 				</div>
-				<p class="screenshot-title-single">Find out more about me</p>
+				<p class="screenshot-title">Find out more about me</p>
 			</div>
 		</div>
 	</div>
@@ -140,10 +140,10 @@ title: PORTFOLIO
 		<div class="wrapper-portfolio">
 			<div class="wrapper-portfolio-screenshot-title">
 				<div class="wrapper-screenshot">
-					<img src="/images/screenshots/iPhone.png" class="iPhone-image-single"/>
-					<img src="/images/screenshots/en/bobbyscounter5.png" class="screenshot-image-single"/>
+					<img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+					<img src="/images/screenshots/en/bobbyscounter5.png" class="screenshot-image"/>
 				</div>
-				<p class="screenshot-title-single">Edit today's counter</p>
+				<p class="screenshot-title">Edit today's counter</p>
 			</div>
 		</div>
 	</div>
