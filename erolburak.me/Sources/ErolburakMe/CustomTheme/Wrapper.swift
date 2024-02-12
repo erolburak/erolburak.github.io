@@ -11,7 +11,7 @@ struct Wrapper: ComponentContainer {
 
 	// MARK: - Properties
 
-	@ComponentBuilder var content: ContentProvider
+	@ComponentBuilder let content: ContentProvider
 
 	// MARK: - Layouts
 

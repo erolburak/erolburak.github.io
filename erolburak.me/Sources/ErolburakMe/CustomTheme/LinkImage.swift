@@ -11,8 +11,8 @@ struct LinkImage: Component {
 
 	// MARK: - Properties
 
-	var image: Image
-	var url: URLRepresentable
+	let image: Image
+	let url: URLRepresentable
 
 	// MARK: - Layouts
 
