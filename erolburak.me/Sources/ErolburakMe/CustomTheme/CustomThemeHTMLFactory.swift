@@ -15,8 +15,9 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
 	func makeIndexHTML(for index: Index,
 					   context: PublishingContext<Site>) throws -> HTML {
 		HTML(.lang(index.language!),
-			 .head(for: index,
-				   on: context.site),
+			 .customHead(for: index,
+						 on: context.site,
+						 with: index.language!),
 			 .body {
 				 SiteHeader(context: context,
 							language: index.language!,
@@ -34,8 +35,9 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
 	func makeSectionHTML(for section: Section<Site>,
 						 context: PublishingContext<Site>) throws -> HTML {
 		HTML(.lang(section.language!),
-			 .head(for: section,
-				   on: context.site),
+			 .customHead(for: section,
+						 on: context.site,
+						 with: section.language!),
 			 .body {
 				 SiteHeader(context: context,
 							language: section.language!,
@@ -53,8 +55,9 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
 	func makePageHTML(for page: Page,
 					  context: PublishingContext<Site>) throws -> HTML {
 		HTML(.lang(page.language!),
-			 .head(for: page,
-				   on: context.site),
+			 .customHead(for: page,
+						 on: context.site,
+						 with: page.language!),
 			 .body {
 				 SiteHeader(context: context,
 							language: page.language!,

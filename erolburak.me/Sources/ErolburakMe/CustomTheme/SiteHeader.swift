@@ -16,9 +16,9 @@ struct SiteHeader<Site: Website>: Component {
 
 	// MARK: - Properties
 
-	var context: PublishingContext<Site>
-	var language: Language
-	var selectedSectionId: Site.SectionID?
+	let context: PublishingContext<Site>
+	let language: Language
+	let selectedSectionId: Site.SectionID?
 
 	// MARK: - Layouts
 
