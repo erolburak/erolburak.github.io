@@ -1,5 +1,5 @@
 //
-//  Theme+Extensions.swift
+//  Theme+Extension.swift
 //
 //
 //  Created by Burak Erol on 20.10.23.

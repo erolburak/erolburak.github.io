@@ -20,17 +20,14 @@ struct ErolburakMe: MultiLanguageWebsite {
 
 	// MARK: - Properties
 
-	var description = ""
-	var favicon: Favicon? {
-		guard let imagePath else { return nil }
-		return Favicon(path: imagePath)
-	}
-	var imagePath: Path? { "/images/favicon.png" }
-	var language: Language = .english
-	var languages = [Language.english,
+	let description = ""
+	let favicon: Favicon? = Favicon(path: "/images/favicon.png")
+	let language: Language = .english
+	let languages = [Language.english,
 					 Language.german]
-	var name = "[BE]"
-	var url = URL(string: "https://erolburak.me")!
+	let name = "[BE]"
+	let url = URL(string: "https://erolburak.me")!
+	var imagePath: Path? { favicon?.path }
 
 	struct ItemMetadata: MultiLanguageWebsiteItemMetadata {
 

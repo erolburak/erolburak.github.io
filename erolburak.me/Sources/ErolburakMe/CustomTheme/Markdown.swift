@@ -12,7 +12,7 @@ struct Markdown: Component {
 
 	// MARK: - Properties
 
-	var contentBody: Content.Body
+	let contentBody: Content.Body
 
 	// MARK: - Layouts
 
