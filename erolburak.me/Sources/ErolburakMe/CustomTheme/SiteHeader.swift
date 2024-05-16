@@ -31,9 +31,6 @@ struct SiteHeader<Site: Website>: Component {
 					LinkImage(image: Image("/images/linkedin.svg"),
 							  url: "https://linkedin.com/in/burakerol44")
 
-					LinkImage(image: Image("/images/xing.svg"),
-							  url: "https://xing.com/profile/Burak_Erol6")
-
 					LinkImage(image: Image("/images/github.svg"),
 							  url: "https://github.com/erolburak")
 

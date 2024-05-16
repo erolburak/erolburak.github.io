@@ -14,7 +14,7 @@ struct SiteFooter: Component {
 
 	var body: Component {
 		Footer {
-			Text("© \(Calendar.current.component(.year, from: .now)) Burak Erol")
+			Text("© \(Date().formatted(.dateTime.year())) Burak Erol")
 		}
 	}
 }
