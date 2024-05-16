@@ -1,11 +1,18 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta property="og:site_name" content="[BE]"/><link rel="canonical" href="https://erolburak.me/en/portfolio"/><meta name="twitter:url" content="https://erolburak.me/en/portfolio"/><meta property="og:url" content="https://erolburak.me/en/portfolio"/><title>PORTFOLIO | [BE]</title><meta name="twitter:title" content="PORTFOLIO | [BE]"/><meta property="og:title" content="PORTFOLIO | [BE]"/><link rel="stylesheet" href="/styles.css" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/images/favicon.png" type="image/png"/><meta name="twitter:image" content="https://erolburak.me/images/favicon.png"/><meta property="og:image" content="https://erolburak.me/images/favicon.png"/></head><body><header><div class="wrapper-links"><div class="wrapper-links-left"><a href="https://linkedin.com/in/burakerol44" target="_blank" class="wrapper-link-image"><img src="/images/linkedin.svg" class="link-image"/></a><a href="https://github.com/erolburak" target="_blank" class="wrapper-link-image"><img src="/images/github.svg" class="link-image"/></a><a href="mailto:erolburak@icloud.com" target="_blank" class="wrapper-link-image"><img src="/images/email.svg" class="link-image"/></a></div><div class="wrapper-link-language"><a href="/de/portfolio/" class="link-language">EN</a></div></div><div class="wrapper"><a href="/en/" class="site-name">[BE]</a><nav><ul><li><a href="/en/portfolio" class="selected">PORTFOLIO</a></li><li><a href="/en/aboutme">ABOUT ME</a></li></ul></nav></div></header><div class="wrapper"><div class="wrapper-portfolio-header">
+---
+title: PORTFOLIO
+---
+
+<div class="wrapper-portfolio-header">
 	<h1>EROLBURAK.ME</h1>
 	<div class="wrapper-links-right">
 		<a href="https://github.com/erolburak/erolburak.me" target="_blank" class="wrapper-link-image-portfolio">
 			<img src="/images/github.svg" class="link-image-portfolio-header">
 		</a>
 	</div>
-</div><br></br><p><b>erolburak.me</b> is my own project, which is used to create a static website that I developed using <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a>. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my <a href="https://github.com/erolburak" target="_blank">GitHub Profile</a>, but also apps that I have worked on as an employee. This project is published on my <a href="https://github.com/erolburak/erolburak.me" target="_blank">GitHub Profile</a>.</p><div class="wrapper-collapse">
+</div>
+<br></br>
+<p><b>erolburak.me</b> is my own project, which is used to create a static website that I developed using <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a>. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my <a href="https://github.com/erolburak" target="_blank">GitHub Profile</a>, but also apps that I have worked on as an employee. This project is published on my <a href="https://github.com/erolburak/erolburak.me" target="_blank">GitHub Profile</a>.</p>
+<div class="wrapper-collapse">
 	<input id="collapse1" class="collapse-toggle" type="checkbox">
 	<label for="collapse1" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
@@ -35,14 +42,18 @@
 			</div>
 		</div>
 	</div>
-</div><div class="wrapper-portfolio-header">
+</div>
+<div class="wrapper-portfolio-header">
 	<h1>BOBBYSNEWS</h1>
 	<div class="wrapper-links-right">
 		<a href="https://github.com/erolburak/bobbysnews" target="_blank" class="wrapper-link-image-portfolio">
 			<img src="/images/github.svg" class="link-image-portfolio-header">
 		</a>
 	</div>
-</div><br></br><p>The <b>BobbysNews</b> app is also my own project, which uses the <a href="https://newsapi.org" target="_blank">NewsAPI</a> to retrieve headlines from across the web. These headlines are displayed in a list and also contain a detail page for more information. This project is published on my <a href="https://github.com/erolburak/bobbysnews" target="_blank">GitHub Profile</a>.</p><div class="wrapper-collapse">
+</div>
+<br></br>
+<p>The <b>BobbysNews</b> app is also my own project, which uses the <a href="https://newsapi.org" target="_blank">NewsAPI</a> to retrieve headlines from across the web. These headlines are displayed in a list and also contain a detail page for more information. This project is published on my <a href="https://github.com/erolburak/bobbysnews" target="_blank">GitHub Profile</a>.</p>
+<div class="wrapper-collapse">
 	<input id="collapse2" class="collapse-toggle" type="checkbox">
 	<label for="collapse2" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
@@ -79,14 +90,18 @@
 			</div>
 		</div>
 	</div>
-</div><div class="wrapper-portfolio-header">
+</div>
+<div class="wrapper-portfolio-header">
 	<h1>BOBBYSCOUNTER</h1>
 	<div class="wrapper-links-right">
 		<a href="https://github.com/erolburak/bobbyscounter" target="_blank" class="wrapper-link-image-portfolio">
 			<img src="/images/github.svg" class="link-image-portfolio-header">
 		</a>
 	</div>
-</div><br></br><p>Also the <b>BobbysCounter</b> app is my own project, which can increase and decrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today's value can be edited in a widget. This project is published on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p><div class="wrapper-collapse">
+</div>
+<br></br>
+<p>Also the <b>BobbysCounter</b> app is my own project, which can increase and deacrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today's value can be edited in a widget. This project is published on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p>
+<div class="wrapper-collapse">
 	<input id="collapse3" class="collapse-toggle" type="checkbox">
 	<label for="collapse3" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
@@ -132,22 +147,30 @@
 			</div>
 		</div>
 	</div>
-</div><div class="wrapper-portfolio-header">
+</div>
+<div class="wrapper-portfolio-header">
 	<h1>TBA (CURRENTLY EMPLOYED)</h1>
-</div><br></br><p>TBA. For legal reasons, I'm not allowed to give detailed information or show screenshots because the app hasn't been published yet.</p><div class="wrapper-collapse">
+</div>
+<br></br>
+<p>TBA. For legal reasons, I'm not allowed to give detailed information or show screenshots because the app hasn't been published yet.</p>
+<div class="wrapper-collapse">
 	<input id="collapse4" class="collapse-toggle" type="checkbox">
 	<label for="collapse4" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
 		<p class="screenshot-title">TBA</p>
 	</div>
-</div><div class="wrapper-portfolio-header">
+</div>
+<div class="wrapper-portfolio-header">
 	<h1>INFIELD</h1>
 	<div class="wrapper-links-right">
 		<a href="https://apps.apple.com/de/app/infield-ehem-festivalcamp/id1577521278" target="_blank" class="wrapper-link-image-portfolio">
 			<img src="/images/appstore.svg" class="link-image-portfolio-header">
 		</a>
 	</div>
-</div><br></br><p>The <b>infield</b> app offers the option of searching for festivals or events and clearly illustrating important related information. Information such as timetables and programs are offered, as well as the opportunity to purchase tickets. To give it a social touch, camps can be created and managed in which members of a camp can plan and organize a festival trip together. This app is published in the <a href="https://apps.apple.com/de/app/infield-ehem-festivalcamp/id1577521278" target="_blank">App Store</a>.</p><div class="wrapper-collapse">
+</div>
+<br></br>
+<p>The <b>infield</b> app offers the option of searching for festivals or events and clearly illustrating important related information. Information such as timetables and programs are offered, as well as the opportunity to purchase tickets. To give it a social touch, camps can be created and managed in which members of a camp can plan and organize a festival trip together. This app is published in the <a href="https://apps.apple.com/de/app/infield-ehem-festivalcamp/id1577521278" target="_blank">App Store</a>.</p>
+<div class="wrapper-collapse">
 	<input id="collapse5" class="collapse-toggle" type="checkbox">
 	<label for="collapse5" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
@@ -184,14 +207,18 @@
 			</div>
 		</div>
 	</div>
-</div><div class="wrapper-portfolio-header">
+</div>
+<div class="wrapper-portfolio-header">
 	<h1>BERLINER PHILHARMONIKER</h1>
 	<div class="wrapper-links-right">
 		<a href="https://apps.apple.com/us/app/berliner-philharmoniker/id554616591" target="_blank" class="wrapper-link-image-portfolio">
 			<img src="/images/appstore.svg" class="link-image-portfolio-header">
 		</a>
 	</div>
-</div><br></br><p>The <b>Berliner Philharmoniker</b> app provides the video stream of various classical concerts, films and interviews from the Philharmonie Berlin, as well as a live stream of concerts. The entire app is based on a subscription model, as not all content is transmitted free of charge. This app is published in the <a href="https://apps.apple.com/us/app/berliner-philharmoniker/id554616591" target="_blank">App Store</a>.</p><div class="wrapper-collapse">
+</div>
+<br></br>
+<p>The <b>Berliner Philharmoniker</b> app provides the video stream of various classical concerts, films and interviews from the Philharmonie Berlin, as well as a live stream of concerts. The entire app is based on a subscription model, as not all content is transmitted free of charge. This app is published in the <a href="https://apps.apple.com/us/app/berliner-philharmoniker/id554616591" target="_blank">App Store</a>.</p>
+<div class="wrapper-collapse">
 	<input id="collapse6" class="collapse-toggle" type="checkbox">
 	<label for="collapse6" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
 	<div class="wrapper-collapse-content">
@@ -228,4 +255,4 @@
 			</div>
 		</div>
 	</div>
-</div></div><footer>© 2024 Burak Erol</footer></body></html>
+</div>
