@@ -100,7 +100,7 @@ title: PORTFOLIO
 	</div>
 </div>
 <br></br>
-<p>Also the <b>BobbysCounter</b> app is my own project, which can increase and deacrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today's value can be edited in a widget. This project is published on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p>
+<p>Also the <b>BobbysCounter</b> app is my own project, which can increase and decrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today's value can be edited in a widget. This project is published on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p>
 <div class="wrapper-collapse">
 	<input id="collapse3" class="collapse-toggle" type="checkbox">
 	<label for="collapse3" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
