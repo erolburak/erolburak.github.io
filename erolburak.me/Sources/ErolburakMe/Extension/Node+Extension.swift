@@ -12,9 +12,9 @@ import Publish
 extension Node where Context == HTML.DocumentContext {
     // MARK: - Methods
 
-    static func customHead<T: Website>(for location: Location,
-                                       on site: T,
-                                       with language: Language) -> Node
+    static func customHead(for location: Location,
+                           on site: some Website,
+                           with language: Language) -> Node
     {
         .head(.encoding(.utf8),
               .siteName(site.name),

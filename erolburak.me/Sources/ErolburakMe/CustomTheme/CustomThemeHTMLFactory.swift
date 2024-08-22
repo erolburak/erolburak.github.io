@@ -74,15 +74,15 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
              })
     }
 
-    func makeItemHTML(for item: Item<Site>,
-                      context: PublishingContext<Site>) throws -> HTML
+    func makeItemHTML(for _: Item<Site>,
+                      context _: PublishingContext<Site>) throws -> HTML
     {
         HTML()
     }
 
-    func makeTagListHTML(for page: TagListPage,
-                         context: PublishingContext<Site>) throws -> HTML? { nil }
+    func makeTagListHTML(for _: TagListPage,
+                         context _: PublishingContext<Site>) throws -> HTML? { nil }
 
-    func makeTagDetailsHTML(for page: TagDetailsPage,
-                            context: PublishingContext<Site>) throws -> HTML? { nil }
+    func makeTagDetailsHTML(for _: TagDetailsPage,
+                            context _: PublishingContext<Site>) throws -> HTML? { nil }
 }
