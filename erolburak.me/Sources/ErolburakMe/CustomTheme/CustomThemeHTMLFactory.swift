@@ -9,77 +9,80 @@ import Plot
 import Publish
 
 struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
+    // MARK: - Layouts
 
-	// MARK: - Layouts
+    func makeIndexHTML(for index: Index,
+                       context: PublishingContext<Site>) throws -> HTML
+    {
+        HTML(.lang(index.language!),
+             .customHead(for: index,
+                         on: context.site,
+                         with: index.language!),
+             .body {
+                 SiteHeader(context: context,
+                            language: index.language!,
+                            selectedSectionId: nil)
 
-	func makeIndexHTML(for index: Index,
-					   context: PublishingContext<Site>) throws -> HTML {
-		HTML(.lang(index.language!),
-			 .customHead(for: index,
-						 on: context.site,
-						 with: index.language!),
-			 .body {
-				 SiteHeader(context: context,
-							language: index.language!,
-							selectedSectionId: nil)
+                 Wrapper {
+                     Markdown(contentBody: index.body)
+                 }
+                 .class("wrapper")
 
-				 Wrapper {
-					 Markdown(contentBody: index.body)
-				 }
-				 .class("wrapper")
+                 SiteFooter()
+             })
+    }
 
-				 SiteFooter()
-			 })
-	}
+    func makeSectionHTML(for section: Section<Site>,
+                         context: PublishingContext<Site>) throws -> HTML
+    {
+        HTML(.lang(section.language!),
+             .customHead(for: section,
+                         on: context.site,
+                         with: section.language!),
+             .body {
+                 SiteHeader(context: context,
+                            language: section.language!,
+                            selectedSectionId: section.id)
 
-	func makeSectionHTML(for section: Section<Site>,
-						 context: PublishingContext<Site>) throws -> HTML {
-		HTML(.lang(section.language!),
-			 .customHead(for: section,
-						 on: context.site,
-						 with: section.language!),
-			 .body {
-				 SiteHeader(context: context,
-							language: section.language!,
-							selectedSectionId: section.id)
+                 Wrapper {
+                     Markdown(contentBody: section.body)
+                 }
+                 .class("wrapper")
 
-				 Wrapper {
-					 Markdown(contentBody: section.body)
-				 }
-				 .class("wrapper")
+                 SiteFooter()
+             })
+    }
 
-				 SiteFooter()
-			 })
-	}
+    func makePageHTML(for page: Page,
+                      context: PublishingContext<Site>) throws -> HTML
+    {
+        HTML(.lang(page.language!),
+             .customHead(for: page,
+                         on: context.site,
+                         with: page.language!),
+             .body {
+                 SiteHeader(context: context,
+                            language: page.language!,
+                            selectedSectionId: nil)
 
-	func makePageHTML(for page: Page,
-					  context: PublishingContext<Site>) throws -> HTML {
-		HTML(.lang(page.language!),
-			 .customHead(for: page,
-						 on: context.site,
-						 with: page.language!),
-			 .body {
-				 SiteHeader(context: context,
-							language: page.language!,
-							selectedSectionId: nil)
+                 Wrapper {
+                     Markdown(contentBody: page.body)
+                 }
+                 .class("wrapper")
 
-				 Wrapper {
-					 Markdown(contentBody: page.body)
-				 }
-				 .class("wrapper")
+                 SiteFooter()
+             })
+    }
 
-				 SiteFooter()
-			 })
-	}
+    func makeItemHTML(for item: Item<Site>,
+                      context: PublishingContext<Site>) throws -> HTML
+    {
+        HTML()
+    }
 
-	func makeItemHTML(for item: Item<Site>,
-					  context: PublishingContext<Site>) throws -> HTML {
-		HTML()
-	}
+    func makeTagListHTML(for page: TagListPage,
+                         context: PublishingContext<Site>) throws -> HTML? { nil }
 
-	func makeTagListHTML(for page: TagListPage,
-						 context: PublishingContext<Site>) throws -> HTML? { nil }
-
-	func makeTagDetailsHTML(for page: TagDetailsPage,
-							context: PublishingContext<Site>) throws -> HTML? { nil }
+    func makeTagDetailsHTML(for page: TagDetailsPage,
+                            context: PublishingContext<Site>) throws -> HTML? { nil }
 }

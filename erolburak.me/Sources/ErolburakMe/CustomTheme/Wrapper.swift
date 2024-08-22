@@ -8,14 +8,13 @@
 import Plot
 
 struct Wrapper: ComponentContainer {
+    // MARK: - Properties
 
-	// MARK: - Properties
+    @ComponentBuilder let content: ContentProvider
 
-	@ComponentBuilder let content: ContentProvider
+    // MARK: - Layouts
 
-	// MARK: - Layouts
-
-	var body: Component {
-		Div(content: content)
-	}
+    var body: Component {
+        Div(content: content)
+    }
 }

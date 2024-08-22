@@ -9,14 +9,13 @@ import Plot
 import Publish
 
 struct Markdown: Component {
+    // MARK: - Properties
 
-	// MARK: - Properties
+    let contentBody: Content.Body
 
-	let contentBody: Content.Body
+    // MARK: - Layouts
 
-	// MARK: - Layouts
-
-	var body: Component {
-		Node.contentBody(contentBody)
-	}
+    var body: Component {
+        Node.contentBody(contentBody)
+    }
 }
