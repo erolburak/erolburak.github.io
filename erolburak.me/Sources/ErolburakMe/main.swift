@@ -6,9 +6,9 @@
 //
 
 try ErolburakMe().publish(using: [.copyResources(),
-								  .addMarkdownFiles(),
-								  .generateHTML(withTheme: .customTheme),
-								  .copyDefaultIndexHtml(),
-								  .deploy(using: .gitHub("erolburak/erolburak.me",
-														 branch: "develop",
-														 useSSH: false))])
+                                  .addMarkdownFiles(),
+                                  .generateHTML(withTheme: .customTheme),
+                                  .copyDefaultIndexHtml(),
+                                  .deploy(using: .gitHub("erolburak/erolburak.me",
+                                                         branch: "develop",
+                                                         useSSH: false))])

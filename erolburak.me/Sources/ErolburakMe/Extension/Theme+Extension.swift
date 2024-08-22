@@ -8,11 +8,10 @@
 import Publish
 
 extension Theme where Site == ErolburakMe {
+    // MARK: - Properties
 
-	// MARK: - Properties
-
-	static var customTheme: Self {
-		Theme(htmlFactory: CustomThemeHTMLFactory(),
-			  resourcePaths: ["Resources/CustomTheme/styles.css"])
-	}
+    static var customTheme: Self {
+        Theme(htmlFactory: CustomThemeHTMLFactory(),
+              resourcePaths: ["Resources/CustomTheme/styles.css"])
+    }
 }

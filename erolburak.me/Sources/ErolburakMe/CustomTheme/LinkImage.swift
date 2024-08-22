@@ -8,18 +8,17 @@
 import Plot
 
 struct LinkImage: Component {
+    // MARK: - Properties
 
-	// MARK: - Properties
+    let image: Image
+    let url: URLRepresentable
 
-	let image: Image
-	let url: URLRepresentable
+    // MARK: - Layouts
 
-	// MARK: - Layouts
-
-	var body: Component {
-		Node.a(.href(url),
-			   .target(.blank),
-			   .component(image.class("link-image")),
-			   .class("wrapper-link-image"))
-	}
+    var body: Component {
+        Node.a(.href(url),
+               .target(.blank),
+               .component(image.class("link-image")),
+               .class("wrapper-link-image"))
+    }
 }

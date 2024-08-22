@@ -9,12 +9,11 @@ import Foundation
 import Plot
 
 struct SiteFooter: Component {
+    // MARK: - Layouts
 
-	// MARK: - Layouts
-
-	var body: Component {
-		Footer {
-			Text("© \(Date().formatted(.dateTime.year())) Burak Erol")
-		}
-	}
+    var body: Component {
+        Footer {
+            Text("© \(Date().formatted(.dateTime.year())) Burak Erol")
+        }
+    }
 }
