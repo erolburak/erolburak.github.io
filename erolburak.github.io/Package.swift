@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ErolBurakGitHubIO",
+    name: "erolburak.github.io",
     platforms: [
         .macOS(
             .v14
@@ -11,9 +11,9 @@ let package = Package(
     ],
     products: [
         .executable(
-            name: "ErolBurakGitHubIO",
+            name: "erolburak.github.io",
             targets: [
-                "ErolBurakGitHubIO"
+                "erolburak.github.io"
             ]
         )
     ],
@@ -29,7 +29,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "ErolBurakGitHubIO",
+            name: "erolburak.github.io",
             dependencies: [
                 "Publish"
             ]
