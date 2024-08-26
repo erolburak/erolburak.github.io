@@ -1,0 +1,78 @@
+{
+  "originHash" : "f557ccacc7ef0b8293f1af499a504b49854606d5c92bdbd556d1cd6cd29cbcc8",
+  "pins" : [
+    {
+      "identity" : "codextended",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/codextended.git",
+      "state" : {
+        "revision" : "8d7c46dfc9c55240870cf5561d6cefa41e3d7105",
+        "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "files",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/files.git",
+      "state" : {
+        "revision" : "d273b5b7025d386feef79ef6bad7de762e106eaf",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "ink",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/ink.git",
+      "state" : {
+        "revision" : "bcc9f219900a62c4210e6db726035d7f03ae757b",
+        "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "plot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/plot.git",
+      "state" : {
+        "revision" : "271926b4413fe868739d99f5eadcf2bd6cd62fb8",
+        "version" : "0.14.0"
+      }
+    },
+    {
+      "identity" : "publish",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Ze0nC/Publish.git",
+      "state" : {
+        "branch" : "Multi-Language",
+        "revision" : "ed73c8175c20ded359dac7fc58c5ced5e353c49b"
+      }
+    },
+    {
+      "identity" : "shellout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/shellout.git",
+      "state" : {
+        "revision" : "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
+        "version" : "2.3.0"
+      }
+    },
+    {
+      "identity" : "sweep",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/sweep.git",
+      "state" : {
+        "revision" : "801c2878e4c6c5baf32fe132e1f3f3af6f9fd1b0",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8407445116401a1bcd55a33fe7b0bddbe2f045b8"
+      }
+    }
+  ],
+  "version" : 3
+}
