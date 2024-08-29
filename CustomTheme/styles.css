@@ -98,6 +98,12 @@ p {
     width: 75%;
 }
 
+.burakerol-image,
+.iPhone-image,
+.screenshot-image {
+    user-select: none;
+}
+
 .collapse-label-toggle:after {
     border-block: 6px solid transparent;
     border-left: 8px solid;
