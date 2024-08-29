@@ -116,10 +116,7 @@ p {
 }
 
 .iPhone-image {
-    margin-inline: 10px;
-    position: absolute;
     width: 100%;
-    z-index: 3;
 }
 
 .link-image {
@@ -145,7 +142,6 @@ p {
     border-radius: 9%;
     padding-top: 1.5%;
     width: 92%;
-    z-index: 1;
 }
 
 .screenshot-title {
@@ -196,8 +192,7 @@ p {
 .wrapper-links-left,
 .wrapper-links-right,
 .wrapper-portfolio,
-.wrapper-portfolio-header,
-.wrapper-screenshot {
+.wrapper-portfolio-header {
     display: flex;
 }
 
@@ -217,21 +212,25 @@ p {
 
 .wrapper-portfolio {
     column-gap: 10px;
+    justify-content: center;
     padding-top: 40px;
 }
 
-.wrapper-portfolio,
 .wrapper-screenshot {
-    justify-content: center;
+    display: grid;
+    justify-items: center;
+}
+
+.wrapper-screenshot > * {
+    grid-area: 1/1;
 }
 
 .wrapper-screenshot-overlay {
+    background: red;
     background-color: #000;
     border-radius: 50% 50% 0% 0%;
     height: 7.5%;
-    position: absolute;
     width: 92%;
-    z-index: 2;
 }
 
 .wrapper-portfolio-screenshot-title {
