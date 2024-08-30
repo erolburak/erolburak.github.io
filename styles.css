@@ -101,6 +101,8 @@ p {
 .burakerol-image,
 .iPhone-image,
 .screenshot-image {
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     user-select: none;
 }
 
