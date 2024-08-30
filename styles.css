@@ -102,7 +102,6 @@ p {
 .iPhone-image,
 .screenshot-image {
     pointer-events: none;
-    user-select: none;
 }
 
 .collapse-label-toggle:after {
