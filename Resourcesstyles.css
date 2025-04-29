@@ -53,13 +53,8 @@ nav li a.selected,
 }
 
 header .wrapper,
-.screenshot-title,
 .wrapper-home {
     text-align: center;
-}
-
-input[type='checkbox'] {
-    display: none;
 }
 
 label {
@@ -95,34 +90,8 @@ p {
 .burakerol-image {
     padding-bottom: 80px;
     padding-top: 40px;
-    width: 75%;
-}
-
-.burakerol-image,
-.iPhone-image,
-.screenshot-image {
     pointer-events: none;
-}
-
-.collapse-label-toggle:after {
-    border-block: 6px solid transparent;
-    border-left: 8px solid;
-    content: "";
-    display: inline-block;
-    margin-left: 12px;
-    transition: transform .2s ease-in-out;
-}
-
-.collapse-toggle:checked + .collapse-label-toggle + .wrapper-collapse-content {
-    max-height: 100%;
-}
-
-.collapse-toggle:checked + .collapse-label-toggle:after {
-    transform: rotate(90deg);
-}
-
-.iPhone-image {
-    width: 100%;
+    width: 75%;
 }
 
 .link-image {
@@ -144,20 +113,6 @@ p {
     font-size: 12px;
 }
 
-.screenshot-image {
-    border-radius: 9%;
-    padding-top: 1.5%;
-    width: 92%;
-}
-
-.screenshot-title {
-    font-size: 0.9em;
-    font-weight: lighter;
-    opacity: 0.5;
-    padding-inline: 15%;
-    padding-top: 6%;
-}
-
 .ul-content {
     padding-bottom: 80px;
     padding-left: 40px;
@@ -168,16 +123,6 @@ p {
     max-width: 900px;
     padding: 40px;
     text-align: left;
-}
-
-.wrapper-collapse {
-    padding-bottom: 80px;
-    padding-top: 20px;
-}
-
-.wrapper-collapse-content {
-    max-height: 0px;
-    overflow: hidden;
 }
 
 .wrapper-link-image {
@@ -197,7 +142,6 @@ p {
 .wrapper-links,
 .wrapper-links-left,
 .wrapper-links-right,
-.wrapper-portfolio,
 .wrapper-portfolio-header {
     display: flex;
 }
@@ -214,26 +158,6 @@ p {
 .wrapper-links,
 .wrapper-portfolio-header {
     justify-content: space-between;
-}
-
-.wrapper-portfolio {
-    column-gap: 10px;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.wrapper-screenshot {
-    display: grid;
-    justify-items: center;
-}
-
-.wrapper-screenshot > * {
-    grid-area: 1/1;
-}
-
-.wrapper-portfolio-screenshot-title {
-    scale: 100%;
-    width: 48%;
 }
 
 @media(prefers-color-scheme: dark) {
