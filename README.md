@@ -1,20 +1,10 @@
-# EROLBURAK.ME
+# EROLBURAK.GITHUB.IO
 
 ## NAME
-erolburak.me
+erolburak.github.io
 
 ## DESCRIPTION
-**erolburak.me** is my own project, which is used to create a static website that I developed using [Publish](https://github.com/JohnSundell/Publish). The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
-
-## SETUP
-- IDE: Xcode
-- [SPM](https://github.com/swiftlang/swift-package-manager)
-- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
-- CI/CD: [GitHub Actions](https://docs.github.com/en/actions)
-
-## APIS
-- Swift
-- [Publish](https://github.com/JohnSundell/Publish)
+**erolburak.github.io** presents a static website that uses this [GitHub Project](https://github.com/erolburak/erolburak.me) of mine. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
 
 ## SCREENSHOTS
 <picture>
