@@ -4,7 +4,7 @@
 erolburak.github.io
 
 ## DESCRIPTION
-**erolburak.github.io** presents a static website that uses this [GitHub Project](https://github.com/erolburak/erolburak.me) of mine. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
+**erolburak.github.io** presents a static website that uses this [GitHub Project](https://github.com/erolburak/erolburak.com) of mine. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
 
 ## SCREENSHOTS
 <picture>
