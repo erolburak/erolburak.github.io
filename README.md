@@ -8,14 +8,14 @@ erolburak.github.io
 
 ## SCREENSHOTS
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c576eecf-4659-47a9-ab89-2b67acdf8c3f">
-  <img width="240" src="https://github.com/user-attachments/assets/1274ea93-1d23-4a89-bf4a-1f6b655bf5f6">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/7bc56f58-5474-4502-a047-749cf95d5400">
+  <img width="240" src="https://github.com/user-attachments/assets/d61c37bf-640b-413a-a46c-382ad9f669a9">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/8f255178-be77-48eb-ab6d-f5cd25727677">
-  <img width="240" src="https://github.com/user-attachments/assets/021cc35b-0331-4cca-b2b2-2ee8d9c8fe78">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/5c2809f7-0128-41b5-942c-7202a5991222">
+  <img width="240" src="https://github.com/user-attachments/assets/130e113d-7c8b-4dd4-9baa-2f66ab7a6aad">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/91a33e81-f003-4cae-ae3d-6f62efe61ff5">
-  <img width="240" src="https://github.com/user-attachments/assets/b4c7faff-0494-40b7-9966-99aecfa36006">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/5dae365f-3829-4afa-a073-7fb5016b286a">
+  <img width="240" src="https://github.com/user-attachments/assets/95158c56-6141-4671-89a4-79f096b75f5e">
 </picture>
