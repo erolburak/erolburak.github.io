@@ -1,50 +1,147 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta property="og:site_name" content="[BE]"/><link rel="canonical" href="https://erolburak.com/en/portfolio"/><meta name="twitter:url" content="https://erolburak.com/en/portfolio"/><meta property="og:url" content="https://erolburak.com/en/portfolio"/><title>PORTFOLIO | [BE]</title><meta name="twitter:title" content="PORTFOLIO | [BE]"/><meta property="og:title" content="PORTFOLIO | [BE]"/><link rel="stylesheet" href="/styles.css" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/resources/fav.png" type="image/png"/><meta name="twitter:image" content="https://erolburak.com/resources/fav.png"/><meta property="og:image" content="https://erolburak.com/resources/fav.png"/></head><body><header><div class="wrapper-links"><div class="wrapper-links-left"><a href="https://linkedin.com/in/burakerol44" target="_blank" class="wrapper-link-image"><img src="/resources/linkedin.svg" class="link-image"/></a><a href="https://github.com/erolburak" target="_blank" class="wrapper-link-image"><img src="/resources/github.svg" class="link-image"/></a><a href="mailto:erolburak@icloud.com" target="_blank" class="wrapper-link-image"><img src="/resources/email.svg" class="link-image"/></a></div><div class="wrapper-link-language"><a href="/de/portfolio/" class="link-language">EN</a></div></div><div class="wrapper"><a href="/en/" class="site-name">[BE]</a><nav><ul><li><a href="/en/portfolio" class="selected">PORTFOLIO</a></li><li><a href="/en/aboutme">ABOUT ME</a></li></ul></nav></div></header><div class="wrapper"><div class="wrapper-portfolio-header">
-    <h1>EROLBURAK.COM</h1>
-    <div class="wrapper-links-right">
-        <a href="https://github.com/erolburak/erolburak.com" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/github.svg" class="link-image-portfolio-header">
-        </a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Burak Erol" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>PORTFOLIO | [BE]</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://erolburak.com/en/portfolio" rel="canonical" />
+    <link href="/images/fav.png" rel="icon" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="HOME" />
+    <meta property="og:title" content="PORTFOLIO" />
+    <meta name="twitter:title" content="PORTFOLIO" />
+    <meta property="og:url" content="https://erolburak.com/en/portfolio" />
+    <meta name="twitter:domain" content="erolburak.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="ig-main-content">
+      <div class="header vstack">
+        <div class="mb-0 align-self-center hstack" style="width: 100.0%; padding: 20px; gap: 4px">
+          <a target="_blank" href="https://linkedin.com/in/burakerol44" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/linkedin.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <a target="_blank" href="https://github.com/erolburak" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/github.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <a target="_blank" href="mailto:erolburak@icloud.com" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/email.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <div class="ms-auto"></div>
+          <a href="https://erolburak.com/de/portfolio" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none">DE</a>
+        </div>
+        <a href="https://erolburak.com/en/home" class="link-title mb-0 align-self-center" style="text-decoration: none; padding-bottom: 20px">[BE]</a>
+        <div class="mb-0 align-self-center hstack" style="padding-bottom: 32px; gap: 40px">
+          <a href="https://erolburak.com/en/portfolio" class="link-section-selected mb-0 align-self-center" style="border-radius: 8px; height: 40px; padding: 20px; text-decoration: none">PORTFOLIO</a>
+          <a href="https://erolburak.com/en/aboutme" class="link-section mb-0 align-self-center" style="border-radius: 8px; height: 40px; padding: 20px; text-decoration: none">ABOUT ME</a>
+        </div>
+      </div>
+      <div class="body vstack" style="gap: 80px">
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">EROLBURAK.COM</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://github.com/erolburak/erolburak.com" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/github.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200"><b>erolburak.com</b> is my own project, which is used to create a static website that I developed using <a href="https://github.com/twostraws/Ignite" target="_blank">Ignite</a>. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my <a href="https://github.com/erolburak" target="_blank">GitHub Profile</a>, but also apps that I have worked on as an employee. The project and current screenshots can be found on my <a href="https://github.com/erolburak/erolburak.com" target="_blank">GitHub Profile</a>.</h4>
+        </div>
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">BOBBYSNEWS</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://github.com/erolburak/bobbysnews" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/github.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200">The <b>BobbysNews</b> app is also my own project, which uses a public API to retrieve headlines from across the web. These headlines are displayed in a list and also contain a detail page for more information. The project and current screenshots can be found on my <a href="https://github.com/erolburak/bobbysnews" target="_blank">GitHub Profile</a>.</h4>
+        </div>
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">BOBBYSCOUNTER</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://github.com/erolburak/bobbyscounter" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/github.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200">Also the <b>BobbysCounter</b> app is my own project, which can increase and decrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today’s value can be edited in a widget. The project and current screenshots can be found on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</h4>
+        </div>
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">BARMER ECARE</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://apps.apple.com/app/id1509460198" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/appstore.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200">The <b>BARMER eCare</b> app represents the electronic patient records and is available exclusively to BARMER insurance holders. Medical, laboratory or surgery reports can be saved and shared with doctors if necessary. The app and current screenshots can be found in the <a href="https://apps.apple.com/app/id1509460198" target="_blank">App Store</a>.</h4>
+        </div>
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">CLAAS CONNECT FARM MANAGEMENT</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://apps.apple.com/app/id6475955826" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/appstore.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200">The <b>CLAAS connect Farm Management</b> app offers the digital solution for field and core data management and illustrates this information in a clear format. Important resources such as machines, employees, equipment and fields can be created and managed. For optimal management, the map provides information about the position and status of the machines. The app and current screenshots can be found in the <a href="https://apps.apple.com/app/id6475955826" target="_blank">App Store</a>.</h4>
+        </div>
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">INFIELD</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://apps.apple.com/app/id1577521278" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/appstore.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200">The <b>infield</b> app offers the option of searching for festivals or events and clearly illustrating important related information. Information such as timetables and programs are offered, as well as the opportunity to purchase tickets. To give it a social touch, camps can be created and managed in which members of a camp can plan and organize a festival trip together. The app and current screenshots can be found in the <a href="https://apps.apple.com/app/id1577521278" target="_blank">App Store</a>.</h4>
+        </div>
+        <div class="mb-0 align-self-center vstack" style="gap: 32px">
+          <div class="mb-0 align-self-center hstack gap-3" style="width: 100.0%">
+            <h2 class="mb-0 align-self-center" style="font-weight: 900; padding-right: 20px">BERLINER PHILHARMONIKER</h2>
+            <div class="ms-auto"></div>
+            <a target="_blank" href="https://apps.apple.com/app/id554616591" class="mb-0 align-self-center" style="width: 32px; height: 32px"><img src="/images/appstore.svg" alt="" class="image" style="width: 32px; height: 32px" /></a>
+          </div>
+          <h4 class="mb-0 align-self-center" style="font-weight: 200">The <b>Berliner Philharmoniker</b> app provides the video stream of various classical concerts, films and interviews from the Philharmonie Berlin, as well as over 40 live broadcasts per season. The app is based on a subscription model, as not all content is transmitted free of charge. The app and current screenshots can be found in the <a href="https://apps.apple.com/app/id554616591" target="_blank">App Store</a>.</h4>
+        </div>
+      </div>
     </div>
-</div><br></br><p><b>erolburak.com</b> is my own project, which is used to create a static website that I developed using <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a>. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my <a href="https://github.com/erolburak" target="_blank">GitHub Profile</a>, but also apps that I have worked on as an employee. The project and current screenshots can be found on my <a href="https://github.com/erolburak/erolburak.com" target="_blank">GitHub Profile</a>.</p><br></br><br></br><div class="wrapper-portfolio-header">
-    <h1>BOBBYSNEWS</h1>
-    <div class="wrapper-links-right">
-        <a href="https://github.com/erolburak/bobbysnews" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/github.svg" class="link-image-portfolio-header">
-        </a>
-    </div>
-</div><br></br><p>The <b>BobbysNews</b> app is also my own project, which uses a public API to retrieve headlines from across the web. These headlines are displayed in a list and also contain a detail page for more information. The project and current screenshots can be found on my <a href="https://github.com/erolburak/bobbysnews" target="_blank">GitHub Profile</a>.</p><br></br><br></br><div class="wrapper-portfolio-header">
-    <h1>BOBBYSCOUNTER</h1>
-    <div class="wrapper-links-right">
-        <a href="https://github.com/erolburak/bobbyscounter" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/github.svg" class="link-image-portfolio-header">
-        </a>
-    </div>
-</div><br></br><p>Also the <b>BobbysCounter</b> app is my own project, which can increase and decrease a counter value. Such a value can be created for each day. The values entered for the last few days and weeks are visualized in a chart and displayed in a list. The average of the last 7, 30 and 90 counter values is displayed in a separate view. In addition, today's value can be edited in a widget. The project and current screenshots can be found on my <a href="https://github.com/erolburak/bobbyscounter" target="_blank">GitHub Profile</a>.</p><br></br><br></br><div class="wrapper-portfolio-header">
-    <h1>BARMER ECARE</h1>
-    <div class="wrapper-links-right">
-        <a href="https://apps.apple.com/us/app/barmer-ecare/id1509460198" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
-        </a>
-    </div>
-</div><br></br><p>The <b>BARMER eCare</b> app represents the electronic patient records and is available exclusively to BARMER insurance holders. Medical, laboratory or surgery reports can be saved and shared with doctors if necessary. The app and current screenshots can be found in the <a href="https://apps.apple.com/us/app/barmer-ecare/id1509460198" target="_blank">App Store</a>.</p><br></br><br></br><div class="wrapper-portfolio-header">
-    <h1>CLAAS CONNECT FARM MANAGEMENT</h1>
-    <div class="wrapper-links-right">
-        <a href="https://apps.apple.com/us/app/claas-connect-farm-management/id6475955826" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
-        </a>
-    </div>
-</div><br></br><p>The <b>CLAAS connect Farm Management</b> app offers the digital solution for field and core data management and illustrates this information in a clear format. Important resources such as machines, employees, equipment and fields can be created and managed. For optimal management, the map provides information about the position and status of the machines. The app and current screenshots can be found in the <a href="https://apps.apple.com/us/app/claas-connect-farm-management/id6475955826" target="_blank">App Store</a>.</p><br></br><br></br><div class="wrapper-portfolio-header">
-    <h1>INFIELD</h1>
-    <div class="wrapper-links-right">
-        <a href="https://apps.apple.com/us/app/infield-ehem-festivalcamp/id1577521278" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
-        </a>
-    </div>
-</div><br></br><p>The <b>infield</b> app offers the option of searching for festivals or events and clearly illustrating important related information. Information such as timetables and programs are offered, as well as the opportunity to purchase tickets. To give it a social touch, camps can be created and managed in which members of a camp can plan and organize a festival trip together. The app and current screenshots can be found in the <a href="https://apps.apple.com/us/app/infield-ehem-festivalcamp/id1577521278" target="_blank">App Store</a>.</p><br></br><br></br><div class="wrapper-portfolio-header">
-    <h1>BERLINER PHILHARMONIKER</h1>
-    <div class="wrapper-links-right">
-        <a href="https://apps.apple.com/us/app/berliner-philharmoniker/id554616591" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
-        </a>
-    </div>
-</div><br></br><p>The <b>Berliner Philharmoniker</b> app provides the video stream of various classical concerts, films and interviews from the Philharmonie Berlin, as well as over 40 live broadcasts per season. The app is based on a subscription model, as not all content is transmitted free of charge. The app and current screenshots can be found in the <a href="https://apps.apple.com/us/app/berliner-philharmoniker/id554616591" target="_blank">App Store</a>.</p><br></br><br></br><footer id="year"></footer><script src="/resources/setYear.js"></script></div></body></html>
+    <p id="footer" class="footer ig-text-xxSmall" style="border-radius: 8px"></p>
+    <script src="/js/footer.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
