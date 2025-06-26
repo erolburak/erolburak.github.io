@@ -1,5 +1,94 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta property="og:site_name" content="[BE]"/><link rel="canonical" href="https://erolburak.com/en/"/><meta name="twitter:url" content="https://erolburak.com/en/"/><meta property="og:url" content="https://erolburak.com/en/"/><title>HOME | [BE]</title><meta name="twitter:title" content="HOME | [BE]"/><meta property="og:title" content="HOME | [BE]"/><link rel="stylesheet" href="/styles.css" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/resources/fav.png" type="image/png"/><meta name="twitter:image" content="https://erolburak.com/resources/fav.png"/><meta property="og:image" content="https://erolburak.com/resources/fav.png"/></head><body><header><div class="wrapper-links"><div class="wrapper-links-left"><a href="https://linkedin.com/in/burakerol44" target="_blank" class="wrapper-link-image"><img src="/resources/linkedin.svg" class="link-image"/></a><a href="https://github.com/erolburak" target="_blank" class="wrapper-link-image"><img src="/resources/github.svg" class="link-image"/></a><a href="mailto:erolburak@icloud.com" target="_blank" class="wrapper-link-image"><img src="/resources/email.svg" class="link-image"/></a></div><div class="wrapper-link-language"><a href="/de/" class="link-language">EN</a></div></div><div class="wrapper"><a href="/en/" class="site-name">[BE]</a><nav><ul><li><a href="/en/portfolio">PORTFOLIO</a></li><li><a href="/en/aboutme">ABOUT ME</a></li></ul></nav></div></header><div class="wrapper"><div class="wrapper-home">
-    <h1>BURAK EROL</h1>
-    <h2>SENIOR IOS DEVELOPER</h2>
-    <img src="/resources/burakerol.png" class="burakerol-image"/>
-</div><footer id="year"></footer><script src="/resources/setYear.js"></script></div></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Burak Erol" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>HOME | [BE]</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://erolburak.com/" rel="canonical" />
+    <link href="/images/fav.png" rel="icon" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="HOME" />
+    <meta property="og:title" content="HOME" />
+    <meta name="twitter:title" content="HOME" />
+    <meta property="og:url" content="https://erolburak.com/" />
+    <meta name="twitter:domain" content="erolburak.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="ig-main-content">
+      <div class="header vstack">
+        <div class="mb-0 align-self-center hstack" style="width: 100.0%; padding: 20px; gap: 4px">
+          <a target="_blank" href="https://linkedin.com/in/burakerol44" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/linkedin.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <a target="_blank" href="https://github.com/erolburak" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/github.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <a target="_blank" href="mailto:erolburak@icloud.com" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/email.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <div class="ms-auto"></div>
+          <a href="https://erolburak.com/de/home" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none">DE</a>
+        </div>
+        <a href="https://erolburak.com/en/home" class="link-title mb-0 align-self-center" style="text-decoration: none; padding-bottom: 20px">[BE]</a>
+        <div class="mb-0 align-self-center hstack" style="padding-bottom: 32px; gap: 40px">
+          <a href="https://erolburak.com/en/portfolio" class="link-section mb-0 align-self-center" style="border-radius: 8px; height: 40px; padding: 20px; text-decoration: none">PORTFOLIO</a>
+          <a href="https://erolburak.com/en/aboutme" class="link-section mb-0 align-self-center" style="border-radius: 8px; height: 40px; padding: 20px; text-decoration: none">ABOUT ME</a>
+        </div>
+      </div>
+      <div class="body text-center vstack">
+        <h2 class="mb-0 align-self-center" style="font-weight: 900">BURAK EROL</h2>
+        <h4 class="mb-0 align-self-center" style="font-weight: 100; color: rgb(169 169 169 / 100%); padding-bottom: 32px">SENIOR IOS DEVELOPER</h4>
+        <img src="/images/burakerol.png" alt="" class="mb-0 align-self-center" style="width: 75.0%" />
+      </div>
+    </div>
+    <p id="footer" class="footer ig-text-xxSmall" style="border-radius: 8px"></p>
+    <script src="/js/footer.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

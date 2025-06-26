@@ -1,6 +1,100 @@
-<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"/><meta property="og:site_name" content="[BE]"/><link rel="canonical" href="https://erolburak.com/de/aboutme"/><meta name="twitter:url" content="https://erolburak.com/de/aboutme"/><meta property="og:url" content="https://erolburak.com/de/aboutme"/><title>ÜBER MICH | [BE]</title><meta name="twitter:title" content="ÜBER MICH | [BE]"/><meta property="og:title" content="ÜBER MICH | [BE]"/><link rel="stylesheet" href="/styles.css" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/resources/fav.png" type="image/png"/><meta name="twitter:image" content="https://erolburak.com/resources/fav.png"/><meta property="og:image" content="https://erolburak.com/resources/fav.png"/></head><body><header><div class="wrapper-links"><div class="wrapper-links-left"><a href="https://linkedin.com/in/burakerol44" target="_blank" class="wrapper-link-image"><img src="/resources/linkedin.svg" class="link-image"/></a><a href="https://github.com/erolburak" target="_blank" class="wrapper-link-image"><img src="/resources/github.svg" class="link-image"/></a><a href="mailto:erolburak@icloud.com" target="_blank" class="wrapper-link-image"><img src="/resources/email.svg" class="link-image"/></a></div><div class="wrapper-link-language"><a href="/en/aboutme/" class="link-language">DE</a></div></div><div class="wrapper"><a href="/de/" class="site-name">[BE]</a><nav><ul><li><a href="/de/portfolio">PORTFOLIO</a></li><li><a href="/de/aboutme" class="selected">ÜBER MICH</a></li></ul></nav></div></header><div class="wrapper"><h1>HALLO, WELT!</h1><br></br><p>Ich bin ein Senior iOS Entwickler aus Berlin und entwickle Apps seit 2016. Den Bachelor of Science (B.Sc.) Abschluss habe ich an der Hochschule für Angewandte Wissenschaften Hof im Studiengang Mobile Computing erlangt. Meine Schwerpunkte in diesem Studiengang lagen in Smartphone- und Tablet-Programmierung. So hat es mich schon im Studium in den Apple Kosmos verschlagen, dem ich seitdem treu geblieben bin. <a href="https://erolburak.com/de/portfolio">Hier</a> könnt ihr euch einen Eindruck über mein Portfolio verschaffen.</p><br></br><p>Natürlich sitze ich nicht die ganze Zeit nur vor dem Computer, sondern verbringe meine Freizeit gerne mit folgenden Hobbys:</p><br></br><ul class="ul-content">
-    <p>• Motorrad fahren</p>
-    <p>• Skateboarden</p>
-    <p>• Snowboarden</p>
-    <p>• Konzerte besuchen</p>
-</ul><footer id="year"></footer><script src="/resources/setYear.js"></script></div></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Burak Erol" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>ÜBER MICH | [BE]</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://erolburak.com/de/aboutme" rel="canonical" />
+    <link href="/images/fav.png" rel="icon" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="HOME" />
+    <meta property="og:title" content="ÜBER MICH" />
+    <meta name="twitter:title" content="ÜBER MICH" />
+    <meta property="og:url" content="https://erolburak.com/de/aboutme" />
+    <meta name="twitter:domain" content="erolburak.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="ig-main-content">
+      <div class="header vstack">
+        <div class="mb-0 align-self-center hstack" style="width: 100.0%; padding: 20px; gap: 4px">
+          <a target="_blank" href="https://linkedin.com/in/burakerol44" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/linkedin.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <a target="_blank" href="https://github.com/erolburak" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/github.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <a target="_blank" href="mailto:erolburak@icloud.com" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none"><img src="/images/email.svg" alt="" class="image" style="width: 16px; height: 16px" /></a>
+          <div class="ms-auto"></div>
+          <a href="https://erolburak.com/en/aboutme" class="link-image-and-language mb-0 align-self-center" style="border-radius: 8px; width: 32px; height: 32px; text-decoration: none">EN</a>
+        </div>
+        <a href="https://erolburak.com/de/home" class="link-title mb-0 align-self-center" style="text-decoration: none; padding-bottom: 20px">[BE]</a>
+        <div class="mb-0 align-self-center hstack" style="padding-bottom: 32px; gap: 40px">
+          <a href="https://erolburak.com/de/portfolio" class="link-section mb-0 align-self-center" style="border-radius: 8px; height: 40px; padding: 20px; text-decoration: none">PORTFOLIO</a>
+          <a href="https://erolburak.com/de/aboutme" class="link-section-selected mb-0 align-self-center" style="border-radius: 8px; height: 40px; padding: 20px; text-decoration: none">ÜBER MICH</a>
+        </div>
+      </div>
+      <div class="body fs-4 vstack" style="font-weight: 200; gap: 32px">
+        <h2 class="mb-0 align-self-center" style="font-weight: 900">HALLO, WELT!</h2>
+        <p class="mb-0 align-self-center">Ich bin ein Senior iOS Entwickler aus Berlin und entwickle Apps seit 2016. Den Bachelor of Science (B.Sc.) Abschluss habe ich an der Hochschule für Angewandte Wissenschaften Hof im Studiengang Mobile Computing erlangt. Meine Schwerpunkte in diesem Studiengang lagen in Smartphone- und Tablet-Programmierung. So hat es mich schon im Studium in den Apple Kosmos verschlagen, dem ich seitdem treu geblieben bin. <a href="https://erolburak.com/de/portfolio">Hier</a> könnt ihr euch einen Eindruck über mein Portfolio verschaffen.</p>
+        <p class="mb-0 align-self-center">Natürlich sitze ich nicht die ganze Zeit nur vor dem Computer, sondern verbringe meine Freizeit gerne mit folgenden Hobbys:</p>
+        <div class="mb-0 align-self-center vstack">
+          <p class="mb-0 align-self-start">• Motorrad fahren</p>
+          <p class="mb-0 align-self-start">• Skateboarden</p>
+          <p class="mb-0 align-self-start">• Snowboarden</p>
+          <p class="mb-0 align-self-start">• Konzerte besuchen</p>
+        </div>
+      </div>
+    </div>
+    <p id="footer" class="footer ig-text-xxSmall" style="border-radius: 8px"></p>
+    <script src="/js/footer.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
