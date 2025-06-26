@@ -7,9 +7,9 @@ erolburak.github.io
 **erolburak.github.io** presents a static website that uses this [GitHub Project](https://github.com/erolburak/erolburak.com) of mine. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
 
 ## SCREENSHOTS
-<img width="240" src="https://github.com/user-attachments/assets/4f7b43c9-286b-48bd-ab93-e2ef879a5972#gh-light-mode-only">
-<img width="240" src="https://github.com/user-attachments/assets/082bbccf-1eca-4e07-812f-033a13118a77#gh-dark-mode-only">
-<img width="240" src="https://github.com/user-attachments/assets/83375c06-ea78-4da4-a465-1148b5fbc4f4#gh-light-mode-only">
-<img width="240" src="https://github.com/user-attachments/assets/b6adef23-c77e-4813-a389-604183491484#gh-dark-mode-only">
-<img width="240" src="https://github.com/user-attachments/assets/86f74391-57ba-48bc-ae06-9137c44fdddf#gh-light-mode-only">
-<img width="240" src="https://github.com/user-attachments/assets/02a08a1d-b79f-453f-b53d-0762e9b029df#gh-dark-mode-only">
+<img width="240" src="https://github.com/user-attachments/assets/29231b04-c96e-484f-83e2-b3e6bb977e11#gh-light-mode-only">
+<img width="240" src="https://github.com/user-attachments/assets/8aac69d0-8226-4328-a452-d2473cc440cb#gh-dark-mode-only">
+<img width="240" src="https://github.com/user-attachments/assets/82444e34-6679-4c90-aa5d-9c223e2fb9c4#gh-light-mode-only">
+<img width="240" src="https://github.com/user-attachments/assets/ade37777-8bf3-4e29-a10d-c28b88599d7d#gh-dark-mode-only">
+<img width="240" src="https://github.com/user-attachments/assets/aedd2818-e741-429b-86d0-4aa13172d682#gh-light-mode-only">
+<img width="240" src="https://github.com/user-attachments/assets/d980e6b1-24c5-4ea4-93d7-271c398ec7b1#gh-dark-mode-only">
