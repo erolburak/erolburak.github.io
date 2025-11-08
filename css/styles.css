@@ -7,6 +7,10 @@ a:hover {
     color: rgb(0 0 0);
 }
 
+.body-content {
+    margin-top: 36px;
+}
+
 .body-content,
 .body-header {
     margin-inline: auto;
@@ -17,15 +21,10 @@ a:hover {
 .body-header-background {
     backdrop-filter: blur(20px) saturate(180%);
     background-color: var(--background-color);
-    position: sticky;
-    top: 0;
 }
 
 .footer {
     background-color: var(--background-color);
-    bottom: 0;
-    position: fixed;
-    right: 0;
 }
 
 @media(prefers-color-scheme: dark) {
